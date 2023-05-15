@@ -56,6 +56,14 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise'
-gem "refile", require: "refile/rails", github: 'manfe/refile'
-gem "refile-mini_magick"
+
+# 日本語化(Rails 6の場合)
+gem 'rails-i18n', '~> 6.0'
+gem 'devise-i18n'
+
+gem 'mini_magick'
+gem 'image_processing', '~> 1.2'
+
 gem "bulma-rails"
+
+gem 'pry-rails'
